@@ -1,0 +1,18 @@
+Sep 09 20:11:27 VirtualControl-3 systemd[1]: Started Service for snap application ctrlx-motor-ui.web.
+Sep 09 20:11:28 VirtualControl-3 ctrlx-motor-ui.web[11257]: INFO:     Started server process [11257]
+Sep 09 20:11:28 VirtualControl-3 ctrlx-motor-ui.web[11257]: INFO:     Waiting for application startup.
+Sep 09 20:11:28 VirtualControl-3 ctrlx-motor-ui.web[11257]: INFO:     Application startup complete.
+Sep 09 20:11:28 VirtualControl-3 ctrlx-motor-ui.web[11257]: INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+Sep 09 20:11:55 VirtualControl-3 systemd[1]: Stopping Service for snap application ctrlx-motor-ui.web...
+Sep 09 20:11:55 VirtualControl-3 ctrlx-motor-ui.web[11257]: INFO:     Shutting down
+Sep 09 20:11:56 VirtualControl-3 ctrlx-motor-ui.web[11257]: INFO:     Waiting for application shutdown.
+Sep 09 20:11:56 VirtualControl-3 ctrlx-motor-ui.web[11257]: INFO:     Application shutdown complete.
+Sep 09 20:11:56 VirtualControl-3 ctrlx-motor-ui.web[11257]: INFO:     Finished server process [11257]
+Sep 09 20:11:56 VirtualControl-3 systemd[1]: snap.ctrlx-motor-ui.web.service: Deactivated successfully.
+Sep 09 20:11:56 VirtualControl-3 systemd[1]: Stopped Service for snap application ctrlx-motor-ui.web.
+Sep 09 20:11:56 VirtualControl-3 systemd[1]: Started Service for snap application ctrlx-motor-ui.web.
+Sep 09 20:11:56 VirtualControl-3 ctrlx-motor-ui.web[11429]: INFO:     Started server process [11429]
+Sep 09 20:11:56 VirtualControl-3 ctrlx-motor-ui.web[11429]: INFO:     Waiting for application startup.
+Sep 09 20:11:56 VirtualControl-3 ctrlx-motor-ui.web[11429]: INFO:     Application startup complete.
+Sep 09 20:11:56 VirtualControl-3 ctrlx-motor-ui.web[11429]: INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+lines 538-579/579 (END)
