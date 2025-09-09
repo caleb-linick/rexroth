@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-core/apps/package-manifest/package-manifest.v1.4.schema.json",
+  "id": "ctrlx-motor-ui",
+  "version": "1.0.0",
+  "scopes-declaration": [
+    {
+      "identifier": "ctrlx-motor-ui.web",
+      "name": "Motor UI",
+      "description": "Permissions for Motor UI",
+      "scopes": [
+        {
+          "identifier": "ctrlx-motor-ui.web.rw",
+          "name": "Read & Write PLC",
+          "description": "Allow RW on PLC symbols",
+          "permissions": [
+            { "path": "plc/**", "type": "nodes:readwrite" }
+          ]
+        }
+      ]
+    }
+  ],
+  "sidebar": [
+    {
+      "path": "ctrlx-motor-ui",
+      "title": "Motor UI",
+      "order": 10,
+      "icon": "app",
+      "target": "proxy",
+      "proxyPath": "ctrlx-motor-ui"
+    }
+  ],
+  "services": {
+    "proxyMapping": [
+      {
+        "name": "ctrlx-motor-ui",
+        "port": 5000,
+        "protocol": "http"
+      }
+    ]
+  }
+}
